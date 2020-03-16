@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "806985807674",
+    "firebase_url": "https://zenly-2.firebaseio.com",
+    "project_id": "zenly-2",
+    "storage_bucket": "zenly-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806985807674:android:867c81ef8176a427460203",
+        "android_client_info": {
+          "package_name": "com.phtl.itlab.zenly_2_0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806985807674-h0q5v7raclsup3fuli2r2u46j9rlms40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjgkz2tPML5PdmRZi2fX13czxfTD8QVHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806985807674-h0q5v7raclsup3fuli2r2u46j9rlms40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

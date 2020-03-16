@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+    <Button
+            android:text="Где я?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button3"/>
+    <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="149dp"
+            android:layout_height="37dp"
+            android:onClick="onClickTest"
+            android:text="Выйти" android:layout_marginLeft="250dp">
+    </Button>
+    <Button
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickTest"
+            android:text="попрыгать">
+    </Button>
+    <Switch
+            android:text="Спутник/обычный"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/switch1"/>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:map="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/map"
+              tools:context=".MapsActivity"
+              android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+</LinearLayout>
